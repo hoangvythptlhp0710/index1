@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-style:initial;
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 15px;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+}
+
+.navbar{
+    background-color: rgb(0, 173, 58) !important;
+}
+.navbar li a{
+    color: rgb(43, 43, 43) !important;
+}
+.navbar li a:hover{
+    color: rgb(255, 255, 255) !important;
+}
+
+.carousel-inner img{
+    width: 20%;
+    
+}
+
+.carousel-caption{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+}
+.carousel-caption h1{
+    font-size: 40%;
+    text-transform: uppercase;
+    
+    text-shadow: 5px 5px 10px #000;
+}
+.btn-outline-light{
+    background-color: green;
+    border:1px solid rgb(243, 243, 243);
+}
+.btn-outline-light :hover{
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+}
+.btn-primary{
+    background-color: rgb(255, 187, 0);
+    border: 1px solid white;
+}
+.btn-primary :hover{
+    background-color: rgb(144, 243, 218);
+    border: 1px solid white;
+}
+
+/* Media Query*/
+
+@media (max-width: 992px){
+    .carousel-caption{
+        top: 20%;
+    }
+}
+@media (max-width: 768px){
+    .carousel-inner img{
+    width: 20%;
+    
+}
+
+.carousel-caption{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+}
+.carousel-caption h1{
+    font-size: 40%;
+    text-transform: uppercase;
+    
+    text-shadow: 5px 5px 10px #000;
+}
+}
+@media (max-width)
